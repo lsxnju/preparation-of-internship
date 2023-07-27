@@ -59,17 +59,12 @@ int main() {
 using namespace std;
 
 int main() {
-    int a, b = 0;
-    while (cin >> a) { // 注意 while 处理多个 case
-        if (cin.get() == '\n') {
-            b += a;
-            cout << b << endl;
-            b = 0;
-        }
-        else {
-            b = a + b;
-        }
-    }
+
+    int age = 20;
+    ++age;
+
+    cout <<++age<< "生日快乐！" << endl;
+
 }
 
 
